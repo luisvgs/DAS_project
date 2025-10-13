@@ -41,18 +41,18 @@ ggplot(gaming_clean, aes(x = Hours)) +
   geom_histogram(fill = "steelblue", bins = 30, alpha = 0.7) +
   theme_minimal() +
   labs(title = "Distribución de horas de juego semanales",
-       x = "Horas jugadas por semana", y = "Frecuencia")
+       x = "Horas jugadas por semana", y = "Participantes")
 
 # ansiedad (GAD)
 ggplot(gaming_clean, aes(x = GAD_T)) +
   geom_histogram(fill = "orange", bins = 30, alpha = 0.7) +
   theme_minimal() +
   labs(title = "Distribución de ansiedad (GAD_T)",
-       x = "Puntaje total GAD", y = "Frecuencia")
+       x = "Puntaje total GAD", y = "Participantes")
 
 # aatisfaccion con la vida
 ggplot(gaming_clean, aes(x = SWL_T)) +
   geom_histogram(fill = "darkgreen", bins = 30, alpha = 0.7) +
   theme_minimal() +
   labs(title = "Distribución de satisfacción con la vida (SWL_T)",
-       x = "Puntaje SWL_T", y = "Frecuencia")
+       x = "Puntaje SWL_T", y = "Participantes")
