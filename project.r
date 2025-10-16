@@ -1,5 +1,7 @@
 library(dplyr)
 library(readr)
+library(psych)
+library(ggplot2)
 
 gaming <- read_csv("GamingStudy_data.csv")
 
